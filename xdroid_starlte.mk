@@ -34,7 +34,7 @@ $(call inherit-product, vendor/xdroid/config/common.mk)
 
 # xdroid build flags
 
-XDROID_BOOT := 1080
+#XDROID_BOOT := 1080 Disabled due to bootloop in starlte.
 XDROID_MAINTAINER := thenist
 
 ## Device identifier, this must come after all inclusions
